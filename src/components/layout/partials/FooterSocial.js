@@ -15,6 +15,7 @@ const FooterSocial = ({
     <div
       {...props}
       className={classes}
+     
     >
       <ul className="list-reset">
         <li>

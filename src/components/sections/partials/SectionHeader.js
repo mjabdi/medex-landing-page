@@ -43,12 +43,12 @@ const SectionHeader = ({
             {data.title &&
               <Component className={
                 classNames(
-                  'mt-0',
+                  'mt-0 reveal-from-bottom',
                   data.paragraph ? 'mb-16' : 'mb-0'
-                )}>{data.title}</Component>
+                )} style={{color:"#5658DD"}}>{data.title}</Component>
             }
             {data.paragraph &&
-              <p className="m-0">{data.paragraph}</p>
+              <p className="m-0 reveal-from-bottom" style={{color:"#00a1c5"}}>{data.paragraph}</p>
             }
           </div>
         </div>

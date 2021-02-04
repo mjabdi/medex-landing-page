@@ -32,20 +32,24 @@ const Footer = ({
     <footer
       {...props}
       className={classes}
+      style={{backgroundColor:"#111", color:"#ddd"}}
     >
-      <div className="container">
+      <div className="container" >
         <div className={
           classNames(
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
           <div className="footer-top space-between text-xxs">
-            <Logo />
+            <div style={{borderRadius:"50%", overflow:"hidden" , padding:"5px"}}>
+               <Logo />
+            </div>
+           
             <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://cruip.com">Cruip</a>. All right reserved</div>
+            <div className="footer-copyright">Made by <a href="https://www.medicalexpressclinic.co.uk/" style={{color:"#ddd"}}>Medical Express Clinic</a>. All right reserved</div>
           </div>
         </div>
       </div>

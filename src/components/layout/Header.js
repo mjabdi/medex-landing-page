@@ -52,6 +52,20 @@ const Header = ({
     setIsactive(true);
   }
 
+  const gotoToAdmin = () => {
+    document.body.classList.remove('off-nav-is-active');
+    nav.current && (nav.current.style.maxHeight = null);
+    setIsactive(false);
+    window.open("http://londonmedicalclinic.co.uk/medicalexpressclinic/admin/login", "_blank")
+  }
+
+  const gotoToPatient = () => {
+    document.body.classList.remove('off-nav-is-active');
+    nav.current && (nav.current.style.maxHeight = null);
+    setIsactive(false);
+    window.open("http://londonmedicalclinic.co.uk/medicalexpressclinic/patient/login", "_blank")
+  }
+
   const closeMenu = () => {
     document.body.classList.remove('off-nav-is-active');
     nav.current && (nav.current.style.maxHeight = null);
@@ -112,7 +126,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                     <Link to="#0" style={{color:"#00a1c5"}}  onClick={gotoToAdmin}>Admin Login</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +134,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="#0" style={{color:"#fff", minWidth:"180px"}} className="button button-secondary button-wide-mobile button-sm" onClick={gotoToPatient}>Patient Login</Link>
                       </li>
                     </ul>}
                 </div>
