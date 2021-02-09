@@ -12,8 +12,8 @@ const cardContents = [
     content:
       "An unrestricted consultation with the doctor, no need to complete a medical history questionnaire.",
     delay: "0",
-    href: "",
-    enabled: false,
+    href: "http://londonmedicalclinic.co.uk/medicalexpressclinic/book/gp/",
+    enabled: true,
   },
   {
     title: "GYNAECOLOGY",

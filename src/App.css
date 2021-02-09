@@ -1,3 +1,34 @@
 .body {
     background-color: aliceblue !important;
 }
+
+
+.doctorImgaeContainer{
+    opacity: 1;
+    width:100%;
+    animation: blink ease-in-out 2s 0s 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.doctorImage {
+    width: 500px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+       
+    }
+}
