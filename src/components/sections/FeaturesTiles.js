@@ -34,25 +34,33 @@ const cardContents = [
   {
     title: "TEST TO RELEASE PCR TEST",
     content:
-      "Covid-19 (Coronavirus) Test to Release Certificate for Travelers.",
+      " Covid-19 (Coronavirus) Test to Release Certificate for Travelers.",
     delay: "0",
     href: "https://testrelease.co.uk/",
     enabled: true,
   },
   {
     title: "DERMATOLOGY APPOINTMENT",
-    content: "Make an appointment with the best dermatologists in London.",
+    content: " Make an appointment with the best dermatologists in London.",
     delay: "200",
-    href: "",
-    enabled: false,
+    href: "http://londonmedicalclinic.co.uk/medicalexpressclinic/book/derma/",
+    enabled: true,
   },
   {
     title: "STD",
     content: " Private Sexual Health (GUM) Clinic for Same Day STD testing.",
     delay: "400",
-    href: "",
-    enabled: false,
+    href: "http://londonmedicalclinic.co.uk/medicalexpressclinic/book/std/",
+    enabled: true,
   },
+  {
+    title: "BLOOD TEST",
+    content: "Private Blood Tests in London. We offer over 1000 blood tests.",
+    delay: "400",
+    href: "http://londonmedicalclinic.co.uk/medicalexpressclinic/book/blood/",
+    enabled: true,
+  },
+
 ];
 
 const propTypes = {
