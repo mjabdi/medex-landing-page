@@ -61,6 +61,15 @@ const cardContents = [
     enabled: true,
   },
 
+  {
+    title: "HEALTH SCREENING",
+    content: "Private Health Checks, Screening and Medical Check up for Men and Women.",
+    delay: "400",
+    href: "http://londonmedicalclinic.co.uk/medicalexpressclinic/book/screening/",
+    enabled: true,
+  },
+
+
 ];
 
 const propTypes = {
