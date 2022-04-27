@@ -23,22 +23,22 @@ const cardContents = [
     href: "http://londonmedicalclinic.co.uk/medicalexpressclinic/book/gynae/",
     enabled: true,
   },
-  {
-    title: "PCR TEST FOR TRAVEL",
-    content:
-      " Covid-19 (Coronavirus) Test Certificate for Travel and Immigration Purpose.",
-    delay: "400",
-    href: "https://travelpcrtest.com/",
-    enabled: true,
-  },
-  {
-    title: "TEST TO RELEASE PCR TEST",
-    content:
-      " Covid-19 (Coronavirus) Test to Release Certificate for Travelers.",
-    delay: "0",
-    href: "https://testrelease.co.uk/",
-    enabled: true,
-  },
+  // {
+  //   title: "PCR TEST FOR TRAVEL",
+  //   content:
+  //     " Covid-19 (Coronavirus) Test Certificate for Travel and Immigration Purpose.",
+  //   delay: "400",
+  //   href: "https://travelpcrtest.com/",
+  //   enabled: true,
+  // },
+  // {
+  //   title: "TEST TO RELEASE PCR TEST",
+  //   content:
+  //     " Covid-19 (Coronavirus) Test to Release Certificate for Travelers.",
+  //   delay: "0",
+  //   href: "https://testrelease.co.uk/",
+  //   enabled: true,
+  // },
   {
     title: "DERMATOLOGY APPOINTMENT",
     content: " Make an appointment with the best dermatologists in London.",

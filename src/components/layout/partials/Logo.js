@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Image from '../../elements/Image';
 
+import logo from './../../../assets/images/MedicalExpressClinic.png'
+
 const Logo = ({
   className,
   ...props
@@ -21,7 +23,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/MedicalExpressClinic.png')}
+            src={logo}
             alt="Open"
             width={36}
             height={36} />
